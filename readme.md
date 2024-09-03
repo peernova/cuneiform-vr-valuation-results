@@ -55,7 +55,7 @@ After obtaining your API credentials, configure the script by updating the follo
 Example configuration:
 
 ```python
-mode = "prod"
+mode = "metadata" # Change this to "prod" or "metadata" as needed
 api_url = get_api_base_url(mode)
 api_key = "your_api_key_here"
 api_secret = "your_api_secret_here"
